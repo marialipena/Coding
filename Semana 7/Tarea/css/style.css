@@ -1,4 +1,6 @@
 body {  
+    max-width: 1000px;
+    margin: 0 auto;
     background-size: 20px 20px;
     background-image: linear-gradient(to right, grey 0.5px, transparent 0.5px), linear-gradient(to bottom, grey 0.5px, transparent 0.5px);
 }
@@ -6,9 +8,9 @@ body {
 #img1{
 	display: block;
 	margin-left: 3%;
-    margin-top: 3%;
-    margin-bottom: 1.5%;
-    width: 10%;
+  margin-top: 3%;
+  margin-bottom: 1.5%;
+  width: 10%;
 }
 
 #menu {
@@ -59,8 +61,8 @@ body {
     filter: grayscale(100%) contrast(100%) brightness(10%); 
 }
 #img4 {
-    margin-top: 5%;
-    margin-left: 6%;
+    margin-top: 2%;
+    margin-left: 0 auto;
     border-bottom: 10px solid  #ffcc05;
     float: left;
 }
