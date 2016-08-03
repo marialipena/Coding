@@ -1,0 +1,102 @@
+body {
+	background-color: white; 
+    max-width: 1000px;
+    margin: 0 auto;
+    background-size: 20px 20px;
+    background-image: linear-gradient(to right, grey 0.5px, transparent 0.5px), linear-gradient(to bottom, grey 0.5px, transparent 0.5px);
+}
+
+h1 {
+	font-family:'Open Sans', sans-serif;
+	font-size: 100px;
+	font-weight: bold;
+	text-align: center;
+	color: #ffcc05;
+	margin left: 10%;
+	margin right: 10%;
+	margin-top: 5%;
+	padding: 2%;
+}
+
+#img1{
+	max-width: 60%;
+	margin-right: 2.5%;
+	margin-left: 2%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background-color: white;
+	float: left;
+	padding: 2%;
+	padding-bottom: 15%;
+	padding-top: 2%;
+	position:relative; 
+	top: 25px; 
+	left: 25px; 
+	z-index: 1; 
+}
+
+
+
+#img2 { 
+	margin-right: 2.5%;
+	margin-left: 20%;
+	margin-top: 35%;
+	margin-bottom: 5%;
+	position:absolute; 
+	top: 25px; 
+	left: 25px; 
+	z-index: 3; 
+} 
+
+#p1 {
+	max-width: 35%;
+	margin: 5%;
+	margin-top: 7.5%;
+	padding: 2%;
+	float: right;
+	background-color: #404040; 
+	background-size: 20px 20px;
+	background-image: linear-gradient(to right, #606060 0.5px, transparent 0.5px), linear-gradient(to bottom, #606060 0.5px, transparent 0.5px); 
+	font-family:"Helvetica";
+	font-size: 18px;
+	font-weight: 100;
+	color: white;
+	text-align: justify;
+	position: relative;
+	line-height: 2;
+}
+
+#p2 {
+	max-width: 25%;
+	margin: 5%;
+	margin-top: 8%;
+	margin-left: 5%;
+	padding: 2%;
+	float: left;
+	background-color: #404040; 
+	background-size: 20px 20px;
+	background-image: linear-gradient(to right, #606060 0.5px, transparent 0.5px), linear-gradient(to bottom, #606060 0.5px, transparent 0.5px); 
+	font-family:"Helvetica";
+	font-size: 15px;
+	font-weight: 100;
+	color: white;
+	line-height: 2;
+	line-height: 40px;
+}
+
+#img3 {
+	max-width: 70%;
+	margin: 5%;
+	margin-top: 5.3%;
+	margin-right: 5%;
+	padding: 2%;
+	float: right;
+	background-color:white; 
+
+}
+
+
+
+
+
+

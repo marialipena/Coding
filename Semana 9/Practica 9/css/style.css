@@ -1,0 +1,41 @@
+body {  
+	background-color: white; 
+    max-width: 1000px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#img1 {
+	display: block;
+	margin: 3%;
+}
+
+ul {
+	clear: both;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2eafe5;
+    font-family: 'Avenir Next';
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #5fd1f9;
+}
+
+.active {
+    background-color: #000;
+}
