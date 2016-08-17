@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	<title>Home</title> 
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<header id="img1">
+<img src="images/1.png" alt="Hola" width="100px" height="100px">
+</header>
+
+<ul id='menu'>
+  <li class='menu'><a href="index.html">HOME</a></li>
+  <li class='menu'><a href="recipes.html">RECIPES</a></li>
+  <li class='menu'><a href="why.html">WHY EGG?</a></li>
+  <li class='menu'><a href="contact.html">CONTACT</a></li>
+</ul>
+
+<div class='slide'>
+<div class="css-slideshow">
+	<figure>
+	<img src="images/4.png" height="330" width="995"/>
+	</figure>
+	<figure>
+	<img src="images/5.png" height="330" width="995"/>
+	</figure>
+	<figure>
+	<img src="images/6.png" height="330" width="995"/>
+	</figure>
+	<figure>
+	<img src="images/4.png" height="330" width="995"/>
+	</figure>
+	<figure>
+	<img src="images/5.png" height="330" width="995"/>
+	</figure>
+	<figure>
+	<img src="images/6.png" height="330" width="995"/>
+	</figure>
+	<figure>
+	<img src="images/4.png" height="330" width="995"/>
+	</figure>
+	<figure>
+	<img src="images/6.png" height="330" width="995"/>
+	</figure>
+
+<img id="img2" src="images/7.png" width="995">
+
+<div class="images">
+	<img id="img3" src="images/8.png" height="445" width="445">
+	<img id="img3" src="images/9.png" height="300" width="300">
+	<img id="img3" src="images/10.png" height="145" width="145">
+	<img id="img3" src="images/11.png" height="145" width="145">
+
+</div>
+
+<div class="pull-left">
+<div class="hover-box">
+<p>Hover me</p>
+<span>This image is totally awesome</span>
+</div>
+
+
+</body>
+</html>
+
+
+body{
+	max-width:995px;
+	background-color:#fff;
+	margin: 0 auto;
+	position: 0 auto;
+}
+
+#img1{
+	display: block;
+    margin: auto;
+    margin-top: 2%;
+    width: 10%;
+    height: 10%;
+    margin-bottom: 3%;
+}
+
+ul{
+	clear: both;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    border: 2px solid #fec311;
+    font-family: 'Futura';
+    font-size: 15px;
+    color: #fec311;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: #fec311;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 91px;
+    padding-right: 92px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    background-color: #fec311;
+    color: white;
+}
+
+.active{
+    background-color: #fec311;
+
+}
+
+.css-slideshow{
+    position: absolute;
+
+}
+
+.css-slideshow figure{
+  	height: 268px;
+  	position: absolute;
+  	background-color: #fec311;
+}
+
+figure:nth-child(1) {
+  animation: xfade 48s 42s infinite;
+}
+figure:nth-child(2) {
+  animation: xfade 48s 36s infinite;
+}
+figure:nth-child(3) {
+  animation: xfade 48s 30s infinite;
+}
+figure:nth-child(4) {
+  animation: xfade 48s 24s infinite;
+}
+figure:nth-child(5) {
+  animation: xfade 48s 18s infinite;
+}
+figure:nth-child(6) {
+  animation: xfade 48s 12s infinite;
+}
+figure:nth-child(7) {
+  animation: xfade 48s 6s infinite;
+}
+figure:nth-child(8) {
+  animation: xfade 48s 0s infinite;
+}
+
+@keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  10.5% {
+    opacity: 1;
+  }
+  12.5%{
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slide {
+	margin-top: 1%;
+	overflow: hidden;
+}
+
+#img2 {
+	position: absolute;
+	margin-top: 330px;
+	background-color: #fec311; 
+}
+
+.images {
+	margin-top: 50%;
+}
+
+#img3 {
+
+}
+
+/* Image Hover */
+* {
+  box-sizing: border-box;
+}
+
+.pull-left {
+  float: left;
+  height: 250px;
+  width: 250px;
+  text-align: center;
+}
+
+.pull-left:first-child {
+  margin-left: 0;
+}
+
+.hover-box {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-image: url("file:///Users/juanto/Desktop/Coding/Semana%2013%20Final/images/8.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  border-radius: 5px;
+}
+
+.hover-box span,
+.hover-box p {
+  display: block;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  padding: 1em;
+  width: 100%;
+  height: 100%;
+  background: rgba(254,195,17,.2);
+  font-size: 2rem;  
+  letter-spacing: -.05rem;
+  color: #fff;
+  text-align: center;
+  transition: right .5s ease, opacity .5s ease, left .5s ease;
+}
+
+.hover-box p {
+  left: 0;
+  opacity: 1;
+  background: rgba(254,195,17,.2);
+}
+
+.hover-box:hover span {
+  right: 0;
+  opacity: 1;
+}
+
+.hover-box:hover p {
+  opacity: 0;
+  left: 100%; 
+}
