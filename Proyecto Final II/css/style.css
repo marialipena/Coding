@@ -1,0 +1,527 @@
+body{
+	max-width:900px;
+	background-color:#fff;
+	margin: 0 auto;
+	position: 0 auto;
+}
+
+/* LOGO */
+
+#img1{
+	display: block;
+    margin: auto;
+    margin-top: 2%;
+    width: 10%;
+    height: 10%;
+    margin-bottom: 3%;
+}
+
+/* SEARCH BAR */
+
+form {
+	float: right;
+	margin-top: 2%;
+}
+
+.search-bar input#search-bar{
+  width: 150px;
+  height: 20px;
+  background: #fff;
+  border: 2px solid #fec311;
+  font-size: 10pt;
+  float: left;
+  color: #fec311;
+  padding-left: 15px;
+
+}
+
+.search-bar input#search-bar::-webkit-input-placeholder {
+   color: #fec311;
+}
+
+/* NAV BAR */
+
+ul{
+	clear: both;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    border: 2px solid #fec311;
+    font-family: 'Futura';
+    font-size: 15px;
+    color: #fec311;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: #fec311;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 80px;
+    padding-right: 70px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    background-color: #fec311;
+    color: white;
+}
+
+.active{
+    background-color: #fec311;
+
+}
+
+/* SLIDESHOW */
+
+.slideshow{
+    position: absolute;
+
+}
+
+.slideshow figure{
+  	height: 268px;
+  	position: absolute;
+  	background-color: #fff;
+}
+
+figure:nth-child(1) {
+  animation: xfade 48s 42s infinite;
+}
+figure:nth-child(2) {
+  animation: xfade 48s 36s infinite;
+}
+figure:nth-child(3) {
+  animation: xfade 48s 30s infinite;
+}
+figure:nth-child(4) {
+  animation: xfade 48s 24s infinite;
+}
+figure:nth-child(5) {
+  animation: xfade 48s 18s infinite;
+}
+figure:nth-child(6) {
+  animation: xfade 48s 12s infinite;
+}
+figure:nth-child(7) {
+  animation: xfade 48s 6s infinite;
+}
+figure:nth-child(8) {
+  animation: xfade 48s 0s infinite;
+}
+
+@keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  10.5% {
+    opacity: 1;
+  }
+  12.5%{
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slide {
+	margin-top: 1%;
+	overflow: hidden;
+}
+
+/* BANNER */
+
+#img2 {
+	position: absolute;
+	margin-top: 330px;
+	background-color: #fec311; 
+}
+
+/* BANNER 2 */
+
+.container2 {
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#p1 {
+    position: absolute;
+    bottom: 8%;
+    left: 20px;
+    font-size: 45px;
+    color: white;
+    font-family: 'Futura';
+    margin-left: 2%;
+    z-index: 1;
+}
+
+#img5 {
+    height: auto;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+/* FAVORITE RECIPES */
+
+.images {
+	margin-top: 60%;
+	margin-right: 12%;
+	margin-left: 12%;
+}
+
+#img3 {
+	margin: 2%;
+}
+
+
+/* FOOTER */
+
+.container {
+    position: relative;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: white;
+    margin-left: 2%;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 20px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Futura';
+    margin-right: 20%;
+    margin-bottom: 2%;
+}
+
+#i1{
+	margin-right: 15%;
+	margin-top: 8%;
+	margin-bottom: 8%;
+
+}
+
+#img4 {
+    height: auto;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+/* RECIPES */
+
+.images2 {
+	margin-top: 4%;
+	margin-bottom: 4%;
+	margin-left: 8%;
+}
+
+#img8 {
+	margin: 2%;
+}
+
+/* WHY EGG */
+
+#img6 {
+	max-width: 50%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-left: 25%;
+    margin-bottom: 4%;
+}
+
+#p2 {
+    bottom: 8%;
+    left: 20px;
+    font-size: 20px;
+    color: #fec311;
+    font-family: 'Futura';
+    line-height: 2;
+    margin: 2%;
+    margin-left: 10%;
+    max-width: 75%;
+    padding: 2%;
+    text-align: justify;
+}
+
+#p3 {
+	bottom: 8%;
+    left: 20px;
+    font-size: 15px;
+    color: #bf8910;
+    font-family: 'Helvetica Neue';
+    line-height: 2;
+    margin: 2%;
+    margin-bottom: 2%;
+    max-width: 75%;
+    margin-left: 10%;
+    padding: 2%;
+    text-align: justify;
+}
+
+/* CONTACT */
+
+.container {
+    position: relative;
+}
+
+
+.topleft {
+    bottom: 8px;
+    left: 20px;
+}
+
+#p4 {
+    font-size: 20px;
+    color: #fec311;
+    font-family: 'Futura';
+    line-height: 2;
+    margin: 2%;
+    max-width: 55%;
+    padding: 2%;
+    text-align: justify;
+    float: left;
+}
+
+#img7 {
+	max-width: 25%;
+	margin-right: 10%;
+	margin-top: 25%;
+    height: auto;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    float: right;
+}
+
+/* Recipe Page */
+
+#img9 {
+	float: left;
+}
+
+#p5{
+	bottom: 8%;
+    left: 20px;
+    font-size: 15px;
+    color: #bf8910;
+    font-family: 'Helvetica Neue';
+    line-height: 2;
+    margin: 2%;
+    max-width: 40%;
+    text-align: justify;
+    float: right;
+}
+
+#p6{
+	bottom: 8%;
+    left: 20px;
+    font-size: 15px;
+    color: #bf8910;
+    font-family: 'Helvetica Neue';
+    line-height: 2;
+    margin: 2%;
+    max-width: 15%;
+    text-align: justify;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE */
+
+
+
+@media screen and (max-width:600px) {
+
+body{
+	background-color: white;
+	margin: 0 auto;
+}
+
+/* LOGO */
+#img1{
+	display: block;
+    margin: auto;
+    margin-top: 2%;
+    width: 5%;
+    height: 5%;
+    margin-bottom: 3%;
+    margin-left: 35%;
+    margin-right: 30%;
+}
+
+/* MENU */
+ul {
+    list-style-type: none;
+    border: 2px solid #fff;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #fff;
+}
+
+li a {
+    display: block;
+    color: #fec311;
+
+    padding: 8px 45px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* SEARCH BAR */
+.search-bar {
+ display: none;
+}
+
+/* SLIDE */
+.slide {
+	display: none;
+}
+
+/* BANNER */
+#img2 {
+	display: none;
+}
+
+/* FAVORITES */
+.images{
+	margin: 3%;
+}
+
+#img3 {
+	height: 80%;
+	width: 80%;
+	margin: 2%;
+    margin-left: 5%;
+	margin-bottom: 4%;
+    float: none;
+}
+
+/* FOOTER */
+#img4 {
+	display: none;
+}
+
+.bottomleft {
+ 	display: none;
+}
+
+#i1{
+	display:  none;
+}
+
+.bottomright {
+	position: relative;
+	color: #fec311;
+	font-size: 15px;
+	border-top: 30px;
+	margin-top: 15%;
+	padding-top:25px;
+    margin-left: 15%;
+}
+
+/* RECIPES */
+#img8 {
+	display: block;
+	height: 90%;
+	width: 90%;
+	margin: 2%;
+    margin-bottom: 5%;
+}
+
+/* BANNER */
+#img5{
+	display: none;
+}
+
+#p1{
+    position: relative;
+	display: block;
+	font-size: 1.5em;
+	color: #fec311;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+
+/* CONTACT */
+#p4{
+	position: relative;
+	color: #fec311;
+	font-size: 15px;
+	float: none;
+    margin-left: 8%;
+}
+
+#img7 {
+	display: none;
+}
+
+#img9{
+    position: relative;
+    height: 90%;
+    width: 90%;
+    display: block;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#p5{
+
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    max-width: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#p6{
+    position: relative;
+    margin: 0 auto;
+    float: none;
+    max-width: 80%;
+    margin-left: 5%;
+}
+
+
+
+
+
+
+}
